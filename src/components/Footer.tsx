@@ -1,3 +1,5 @@
+import logo from "@/assets/logo.png";
+
 const Footer = () => {
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
@@ -12,9 +14,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           {/* Logo and Description */}
           <div className="md:col-span-2">
-            <div className="bg-gradient-gold px-4 py-2 rounded-lg inline-block mb-4">
-              <h3 className="text-2xl font-bold text-navy">GL CONNECT</h3>
-            </div>
+            <img src={logo} alt="GL CONNECT" className="h-16 mb-4" />
             <p className="text-gold/70 leading-relaxed mb-4">
               Tecnologia de qualidade para empresas e prefeituras em todo o Brasil. 
               Compromisso com excelência e atendimento diferenciado.

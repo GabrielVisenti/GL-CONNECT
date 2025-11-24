@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Menu, X, MessageCircle } from "lucide-react";
 import { useState } from "react";
+import logo from "@/assets/logo.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -28,9 +29,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <div className="bg-gradient-gold px-4 py-2 rounded-lg">
-              <h1 className="text-2xl font-bold text-navy">GL CONNECT</h1>
-            </div>
+            <img src={logo} alt="GL CONNECT" className="h-12 md:h-16" />
           </div>
 
           {/* Desktop Menu */}
