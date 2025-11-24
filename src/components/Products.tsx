@@ -1,33 +1,6 @@
 import { Button } from "@/components/ui/button";
-import { 
-  Laptop, 
-  Monitor, 
-  Keyboard, 
-  Mouse, 
-  Headphones, 
-  Tv, 
-  Speaker,
-  Projector,
-  Network,
-  Wifi,
-  Printer,
-  HardDrive
-} from "lucide-react";
-
-const products = [
-  { name: "Notebooks", icon: Laptop, description: "Alta performance para trabalho" },
-  { name: "Monitores", icon: Monitor, description: "Telas profissionais de qualidade" },
-  { name: "Teclados", icon: Keyboard, description: "Conforto e produtividade" },
-  { name: "Mouse", icon: Mouse, description: "Precisão e ergonomia" },
-  { name: "Headsets/Fones", icon: Headphones, description: "Áudio premium" },
-  { name: "TVs", icon: Tv, description: "Displays de alta resolução" },
-  { name: "Caixas de Som", icon: Speaker, description: "Som profissional" },
-  { name: "Projetores", icon: Projector, description: "Apresentações impactantes" },
-  { name: "Switches de Rede", icon: Network, description: "Infraestrutura conectada" },
-  { name: "Roteadores", icon: Wifi, description: "Internet estável e rápida" },
-  { name: "Impressoras", icon: Printer, description: "Soluções de impressão" },
-  { name: "Armazenamento", icon: HardDrive, description: "HDs e SSDs" },
-];
+import { Link } from "react-router-dom";
+import { productCategories, getProductsByCategory } from "@/data/products";
 
 const Products = () => {
   const handleWhatsAppClick = () => {
@@ -47,32 +20,59 @@ const Products = () => {
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 max-w-7xl mx-auto">
-          {products.map((product, index) => (
-            <div 
-              key={product.name}
-              className="bg-card rounded-xl p-6 border border-gold/20 hover:border-gold/40 transition-smooth hover:shadow-gold group animate-scale-in"
-              style={{ animationDelay: `${index * 0.05}s` }}
-            >
-              <div className="bg-gold/10 w-16 h-16 rounded-full flex items-center justify-center mb-4 group-hover:bg-gold/20 transition-smooth">
-                <product.icon className="h-8 w-8 text-gold" />
+        {/* Categories */}
+        <div className="space-y-16">
+          {productCategories.map((category, categoryIndex) => {
+            const categoryProducts = getProductsByCategory(category.id);
+            
+            return (
+              <div key={category.id} className="animate-fade-in-up" style={{ animationDelay: `${categoryIndex * 0.1}s` }}>
+                <div className="flex items-center gap-4 mb-8">
+                  <div className="bg-gold/20 p-3 rounded-lg">
+                    <category.icon className="h-8 w-8 text-gold" />
+                  </div>
+                  <h3 className="text-3xl font-bold text-gold">{category.name}</h3>
+                  <div className="flex-1 h-px bg-gold/20"></div>
+                </div>
+
+                <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
+                  {categoryProducts.map((product, productIndex) => (
+                    <Link 
+                      key={product.id}
+                      to={`/produto/${product.id}`}
+                      className="group animate-scale-in"
+                      style={{ animationDelay: `${(categoryIndex * 0.1) + (productIndex * 0.05)}s` }}
+                    >
+                      <div className="bg-card rounded-xl p-6 border border-gold/20 hover:border-gold/40 transition-smooth hover:shadow-gold h-full flex flex-col">
+                        <div className="bg-gold/10 rounded-lg p-4 mb-4 group-hover:bg-gold/20 transition-smooth">
+                          <img 
+                            src={product.image} 
+                            alt={product.name}
+                            className="w-full h-32 object-contain"
+                          />
+                        </div>
+                        
+                        <h4 className="text-base font-bold text-gold mb-2 line-clamp-2 flex-1">
+                          {product.shortName}
+                        </h4>
+                        
+                        <Button 
+                          variant="quote" 
+                          size="sm"
+                          className="w-full mt-auto"
+                        >
+                          Ver Detalhes
+                        </Button>
+                      </div>
+                    </Link>
+                  ))}
+                </div>
               </div>
-              
-              <h3 className="text-xl font-bold text-gold mb-2">{product.name}</h3>
-              <p className="text-gold/70 text-sm mb-4">{product.description}</p>
-              
-              <Button 
-                variant="quote" 
-                className="w-full"
-                onClick={handleWhatsAppClick}
-              >
-                Clique aqui e faça sua cotação
-              </Button>
-            </div>
-          ))}
+            );
+          })}
         </div>
 
-        <div className="text-center mt-12">
+        <div className="text-center mt-16">
           <p className="text-gold/70 mb-4">E muito mais! Entre em contato para conhecer nosso catálogo completo.</p>
           <Button variant="hero" size="lg" onClick={handleWhatsAppClick}>
             Ver Catálogo Completo no WhatsApp
