@@ -15,7 +15,8 @@ const ProductDetail = () => {
 
   // Scroll to top whenever product changes or page loads
   useEffect(() => {
-    window.scrollTo(0, 0);
+    // Scroll to top immediately when component mounts or product changes
+    window.scrollTo({ top: 0, behavior: 'instant' });
   }, [productId]);
   
   const product = productId ? getProductById(productId) : undefined;
@@ -59,8 +60,8 @@ const ProductDetail = () => {
     <div className="min-h-screen bg-navy">
       <Header />
       
-      {/* Back to Catalog Button */}
-      <div className="container mx-auto px-4 pt-6">
+      {/* Back to Catalog Button - Added pt-32 to account for fixed header */}
+      <div className="container mx-auto px-4 pt-32">
         <Button 
           variant="outline" 
           onClick={handleBackToCatalog}
