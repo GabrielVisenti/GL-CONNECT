@@ -7,6 +7,11 @@ const Products = () => {
     window.open("https://wa.me/5544988480543", "_blank");
   };
 
+  const handleProductClick = () => {
+    // Save current scroll position before navigating to product
+    sessionStorage.setItem("catalogScrollPosition", window.scrollY.toString());
+  };
+
   return (
     <section id="produtos" className="py-20 bg-navy">
       <div className="container mx-auto px-4">
@@ -40,6 +45,7 @@ const Products = () => {
                     <Link 
                       key={product.id}
                       to={`/produto/${product.id}`}
+                      onClick={handleProductClick}
                       className="group animate-scale-in"
                       style={{ animationDelay: `${(categoryIndex * 0.1) + (productIndex * 0.05)}s` }}
                     >
