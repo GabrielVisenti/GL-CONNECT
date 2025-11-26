@@ -59,8 +59,20 @@ const ProductDetail = () => {
     <div className="min-h-screen bg-navy">
       <Header />
       
+      {/* Back to Catalog Button */}
+      <div className="container mx-auto px-4 pt-6">
+        <Button 
+          variant="outline" 
+          onClick={handleBackToCatalog}
+          className="group"
+        >
+          <ArrowLeft className="h-4 w-4 group-hover:-translate-x-1 transition-smooth" />
+          Voltar ao Catálogo
+        </Button>
+      </div>
+
       {/* Breadcrumbs */}
-      <nav className="container mx-auto px-4 py-6">
+      <nav className="container mx-auto px-4 py-4">
         <ol className="flex items-center gap-2 text-sm text-gold/60">
           <li><Link to="/" className="hover:text-gold transition-smooth">Home</Link></li>
           <ChevronRight className="h-4 w-4" />
