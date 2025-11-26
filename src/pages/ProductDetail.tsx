@@ -1,4 +1,5 @@
 import { useParams, Link, useNavigate } from "react-router-dom";
+import { useEffect } from "react";
 import { getProductById, getRelatedProducts, products } from "@/data/products";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -11,6 +12,11 @@ import { Badge } from "@/components/ui/badge";
 const ProductDetail = () => {
   const { productId } = useParams<{ productId: string }>();
   const navigate = useNavigate();
+
+  // Scroll to top whenever product changes or page loads
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [productId]);
   
   const product = productId ? getProductById(productId) : undefined;
 
@@ -37,6 +43,18 @@ const ProductDetail = () => {
     window.open(`https://wa.me/5544988480543?text=${encodeURIComponent(message)}`, "_blank");
   };
 
+  const handleBackToCatalog = () => {
+    navigate("/#produtos");
+    // Small delay to ensure navigation completes before restoring scroll
+    setTimeout(() => {
+      const savedPosition = sessionStorage.getItem("catalogScrollPosition");
+      if (savedPosition) {
+        window.scrollTo(0, parseInt(savedPosition));
+        sessionStorage.removeItem("catalogScrollPosition");
+      }
+    }, 50);
+  };
+
   return (
     <div className="min-h-screen bg-navy">
       <Header />
@@ -46,7 +64,14 @@ const ProductDetail = () => {
         <ol className="flex items-center gap-2 text-sm text-gold/60">
           <li><Link to="/" className="hover:text-gold transition-smooth">Home</Link></li>
           <ChevronRight className="h-4 w-4" />
-          <li><Link to="/#produtos" className="hover:text-gold transition-smooth">Produtos</Link></li>
+          <li>
+            <button 
+              onClick={handleBackToCatalog}
+              className="hover:text-gold transition-smooth"
+            >
+              Produtos
+            </button>
+          </li>
           <ChevronRight className="h-4 w-4" />
           <li className="text-gold">{product.shortName}</li>
         </ol>
