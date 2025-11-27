@@ -57,36 +57,34 @@ const Contact = () => {
             </div>
 
             <div className="space-y-6">
-              <a 
-                href="https://wa.me/5544988480543"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-4 p-4 bg-card rounded-lg border border-gold/20 hover:border-gold/40 transition-smooth hover:shadow-gold group"
-              >
-                <div className="bg-gold/10 w-12 h-12 rounded-full flex items-center justify-center group-hover:bg-gold/20 transition-smooth">
-                  <MessageCircle className="h-6 w-6 text-gold" />
+              <div className="bg-card rounded-lg border border-gold/20 hover:border-gold/40 transition-smooth hover:shadow-gold p-4">
+                <div className="flex items-start gap-4">
+                  <div className="bg-gold/10 w-12 h-12 rounded-full flex items-center justify-center">
+                    <MessageCircle className="h-6 w-6 text-gold" />
+                  </div>
+                  <div className="flex-1">
+                    <p className="text-gold/70 text-sm mb-3">WhatsApp</p>
+                    <div className="space-y-2">
+                      <a 
+                        href="https://wa.me/5544988480543"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="block text-gold font-semibold hover:text-gold/80 transition-smooth"
+                      >
+                        (44) 9 8848-0543
+                      </a>
+                      <a 
+                        href="https://wa.me/5544988560987"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="block text-gold font-semibold hover:text-gold/80 transition-smooth"
+                      >
+                        (44) 9 8856-0987
+                      </a>
+                    </div>
+                  </div>
                 </div>
-                <div>
-                  <p className="text-gold/70 text-sm">WhatsApp</p>
-                  <p className="text-gold font-semibold">(44) 9 8848-0543</p>
-                </div>
-              </a>
-
-              <a 
-                href="https://wa.me/5544988560987"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-4 p-4 bg-card rounded-lg border border-gold/20 hover:border-gold/40 transition-smooth hover:shadow-gold group"
-              >
-                <div className="bg-gold/10 w-12 h-12 rounded-full flex items-center justify-center group-hover:bg-gold/20 transition-smooth">
-                  <MessageCircle className="h-6 w-6 text-gold" />
-                </div>
-                <div>
-                  <p className="text-gold/70 text-sm">WhatsApp</p>
-                  <p className="text-gold font-semibold">(44) 9 8856-0987</p>
-                </div>
-              </a>
-
+              </div>
 
               <a 
                 href="mailto:glconnect2025@gmail.com"
