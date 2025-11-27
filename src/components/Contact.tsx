@@ -87,18 +87,6 @@ const Contact = () => {
                 </div>
               </a>
 
-              <a 
-                href="tel:+5544988480543"
-                className="flex items-center gap-4 p-4 bg-card rounded-lg border border-gold/20 hover:border-gold/40 transition-smooth hover:shadow-gold group"
-              >
-                <div className="bg-gold/10 w-12 h-12 rounded-full flex items-center justify-center group-hover:bg-gold/20 transition-smooth">
-                  <Phone className="h-6 w-6 text-gold" />
-                </div>
-                <div>
-                  <p className="text-gold/70 text-sm">Telefone</p>
-                  <p className="text-gold font-semibold">(44) 9 8848-0543</p>
-                </div>
-              </a>
 
               <a 
                 href="mailto:glconnect2025@gmail.com"
