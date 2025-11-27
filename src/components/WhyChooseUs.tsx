@@ -53,11 +53,11 @@ const WhyChooseUs = () => {
               className="text-center animate-scale-in"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
-              <div className="bg-gradient-gold w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 shadow-gold-lg">
-                <reason.icon className="h-10 w-10 text-navy" />
+              <div className="bg-primary w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 shadow-gold-lg hover:scale-110 transition-smooth">
+                <reason.icon className="h-12 w-12 text-navy stroke-[2.5]" />
               </div>
               <h3 className="text-xl font-bold text-gold mb-3">{reason.title}</h3>
-              <p className="text-gold/70 leading-relaxed">{reason.description}</p>
+              <p className="text-gold/80 leading-relaxed">{reason.description}</p>
             </div>
           ))}
         </div>

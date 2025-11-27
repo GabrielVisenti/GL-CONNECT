@@ -9,16 +9,11 @@ const About = () => {
             Sobre a GL CONNECT
           </h2>
           <p className="text-lg text-gold/80 leading-relaxed">
-            A GL CONNECT é especializada na venda e fornecimento de equipamentos eletrônicos 
-            para empresas, órgãos públicos e prefeituras de todo o Brasil. Nosso compromisso 
-            é entregar qualidade, tecnologia e atendimento rápido, sempre com seriedade e 
-            transparência.
+            A GL CONNECT é referência em soluções eletrônicas para empresas e prefeituras, 
+            oferecendo equipamentos de alta performance, suporte especializado e atendimento ágil. 
+            Trabalhamos com marcas confiáveis e entregamos tecnologia com seriedade, compromisso 
+            e excelência.
           </p>
-          <div className="mt-8 pt-8 border-t border-gold/20">
-            <p className="text-gold font-semibold text-lg mb-2">Proprietários:</p>
-            <p className="text-gold/80">Gabriel Visentin Alexandre</p>
-            <p className="text-gold/80">Leonardo Ambrósio</p>
-          </div>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">

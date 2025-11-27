@@ -15,15 +15,10 @@ const Footer = () => {
           {/* Logo and Description */}
           <div className="md:col-span-2">
             <img src={logo} alt="GL CONNECT" className="h-16 mb-4" />
-            <p className="text-gold/70 leading-relaxed mb-4">
+            <p className="text-gold/70 leading-relaxed">
               Tecnologia de qualidade para empresas e prefeituras em todo o Brasil. 
               Compromisso com excelência e atendimento diferenciado.
             </p>
-            <div className="text-gold/70 text-sm space-y-1">
-              <p className="font-semibold text-gold">Proprietários:</p>
-              <p>Gabriel Visentin Alexandre</p>
-              <p>Leonardo Ambrósio</p>
-            </div>
           </div>
 
           {/* Quick Links */}
