@@ -60,15 +60,15 @@ const Hero = () => {
           {/* Trust Indicators */}
           <div className="grid grid-cols-3 gap-6 mt-16 pt-16 border-t border-gold/20">
             <div className="text-center">
-              <p className="text-4xl font-bold text-gold mb-2">+120</p>
-              <p className="text-gold/70 text-sm">Equipamentos no Catálogo</p>
+              <p className="text-4xl font-bold text-gold mb-2">100+</p>
+              <p className="text-gold/70 text-sm">Produtos Disponíveis</p>
             </div>
             <div className="text-center">
-              <p className="text-4xl font-bold text-gold mb-2">+50</p>
+              <p className="text-4xl font-bold text-gold mb-2">50+</p>
               <p className="text-gold/70 text-sm">Empresas Atendidas</p>
             </div>
             <div className="text-center">
-              <p className="text-4xl font-bold text-gold mb-2">+20</p>
+              <p className="text-4xl font-bold text-gold mb-2">80+</p>
               <p className="text-gold/70 text-sm">Prefeituras Fornecidas</p>
             </div>
           </div>

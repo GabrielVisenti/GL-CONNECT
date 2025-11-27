@@ -36,16 +36,11 @@ const Header = () => {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-navy/95 backdrop-blur-sm border-b border-gold/20">
-      {/* Top Bar */}
-      <div className="bg-gold text-navy py-2 text-center text-sm font-semibold">
-        <p>Cotações rápidas para Empresas e Prefeituras – Clique aqui</p>
-      </div>
-
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <img src={logo} alt="GL CONNECT" className="h-12 md:h-16" />
+            <img src={logo} alt="GL CONNECT" className="h-16 md:h-20" />
           </div>
 
           {/* Desktop Menu */}

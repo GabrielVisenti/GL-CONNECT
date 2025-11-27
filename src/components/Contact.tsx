@@ -11,13 +11,14 @@ const Contact = () => {
     name: "",
     company: "",
     phone: "",
+    email: "",
     message: "",
   });
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     
-    const whatsappMessage = `Olá! Meu nome é ${formData.name}, da empresa ${formData.company}.\n\nTelefone: ${formData.phone}\n\nMensagem: ${formData.message}`;
+    const whatsappMessage = `Olá! Meu nome é ${formData.name}, da empresa ${formData.company}.\n\nTelefone: ${formData.phone}\nE-mail: ${formData.email}\n\nMensagem: ${formData.message}`;
     const whatsappUrl = `https://wa.me/5544988480543?text=${encodeURIComponent(whatsappMessage)}`;
     
     window.open(whatsappUrl, "_blank");
@@ -27,7 +28,7 @@ const Contact = () => {
       description: "Você será direcionado para continuar a conversa no WhatsApp.",
     });
     
-    setFormData({ name: "", company: "", phone: "", message: "" });
+    setFormData({ name: "", company: "", phone: "", email: "", message: "" });
   };
 
   return (
@@ -68,6 +69,21 @@ const Contact = () => {
                 <div>
                   <p className="text-gold/70 text-sm">WhatsApp</p>
                   <p className="text-gold font-semibold">(44) 9 8848-0543</p>
+                </div>
+              </a>
+
+              <a 
+                href="https://wa.me/5544988560987"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-4 p-4 bg-card rounded-lg border border-gold/20 hover:border-gold/40 transition-smooth hover:shadow-gold group"
+              >
+                <div className="bg-gold/10 w-12 h-12 rounded-full flex items-center justify-center group-hover:bg-gold/20 transition-smooth">
+                  <MessageCircle className="h-6 w-6 text-gold" />
+                </div>
+                <div>
+                  <p className="text-gold/70 text-sm">WhatsApp</p>
+                  <p className="text-gold font-semibold">(44) 9 8856-0987</p>
                 </div>
               </a>
 
@@ -136,6 +152,18 @@ const Contact = () => {
                   onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                   className="bg-navy-lighter border-gold/30 text-gold focus:border-gold"
                   placeholder="(00) 0 0000-0000"
+                />
+              </div>
+
+              <div>
+                <label className="block text-gold/80 mb-2 text-sm">E-mail</label>
+                <Input
+                  required
+                  type="email"
+                  value={formData.email}
+                  onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                  className="bg-navy-lighter border-gold/30 text-gold focus:border-gold"
+                  placeholder="seu@email.com"
                 />
               </div>
 
