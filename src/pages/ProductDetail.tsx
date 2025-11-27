@@ -183,18 +183,17 @@ const ProductDetail = () => {
         </Card>
 
         {/* Company Info Block */}
-        <Card className="mb-16 bg-gradient-gold text-navy border-gold">
+        <Card className="mb-16 bg-card border-gold/20">
           <CardContent className="p-8 text-center">
-            <h3 className="text-2xl font-bold mb-4">
+            <h3 className="text-2xl font-bold mb-4 text-gold">
               A GL CONNECT é especialista em vendas de equipamentos eletrônicos para empresas e prefeituras.
             </h3>
-            <p className="text-lg mb-6">
+            <p className="text-lg mb-6 text-gold/80">
               Solicite sua cotação e receba atendimento imediato.
             </p>
             <Button 
-              variant="outline" 
+              variant="hero" 
               size="lg"
-              className="bg-navy text-gold border-navy hover:bg-navy/90"
               onClick={handleWhatsAppClick}
             >
               <MessageCircle className="h-5 w-5" />
