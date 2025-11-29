@@ -64,20 +64,21 @@ const Contact = () => {
                   </div>
                   <div className="flex-1">
                     <p className="text-gold/70 text-sm mb-3">WhatsApp</p>
-                    <div className="space-y-2">
+                    <div className="flex items-center flex-wrap gap-2">
                       <a 
                         href="https://wa.me/5544988480543"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="block text-gold font-semibold hover:text-gold/80 transition-smooth"
+                        className="text-gold font-semibold hover:text-gold/80 transition-smooth"
                       >
                         (44) 9 8848-0543
                       </a>
+                      <span className="text-gold/50">/</span>
                       <a 
                         href="https://wa.me/5544988560987"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="block text-gold font-semibold hover:text-gold/80 transition-smooth"
+                        className="text-gold font-semibold hover:text-gold/80 transition-smooth"
                       >
                         (44) 9 8856-0987
                       </a>
