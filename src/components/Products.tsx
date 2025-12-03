@@ -50,11 +50,11 @@ const Products = () => {
                       style={{ animationDelay: `${(categoryIndex * 0.1) + (productIndex * 0.05)}s` }}
                     >
                       <div className="bg-card rounded-xl p-6 border border-gold/20 hover:border-gold/40 transition-smooth hover:shadow-gold h-full flex flex-col">
-                        <div className="bg-gold/10 rounded-lg p-4 mb-4 group-hover:bg-gold/20 transition-smooth">
+                        <div className="bg-gold/10 rounded-lg p-4 mb-4 group-hover:bg-gold/20 transition-smooth flex items-center justify-center min-h-[160px]">
                           <img 
                             src={product.image} 
                             alt={product.name}
-                            className="w-full h-32 object-contain"
+                            className="w-full h-40 object-contain"
                           />
                         </div>
                         
