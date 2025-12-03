@@ -228,7 +228,7 @@ export const products: Product[] = [
       "Peso": "Aprox. 1.65kg",
       "Garantia": "12 meses"
     },
-    image: "/placeholder.svg"
+    image: "/images/products/notebook/notebook-1.png"
   },
   {
     id: "notebook-asus-vivobook-15-x1504va-i5",
@@ -260,7 +260,7 @@ export const products: Product[] = [
       "Cor": "Cool Silver",
       "Garantia": "12 meses"
     },
-    image: "/placeholder.svg"
+    image: "/images/products/notebook/notebook-2.png"
   },
   {
     id: "notebook-asus-vivobook-16-x1605va-i7",
@@ -292,7 +292,7 @@ export const products: Product[] = [
       "Cor": "Cool Silver",
       "Garantia": "12 meses"
     },
-    image: "/placeholder.svg"
+    image: "/images/products/notebook/notebook-3.png"
   },
   {
     id: "notebook-asus-tuf-gaming-a15-rtx3050",
@@ -324,7 +324,7 @@ export const products: Product[] = [
       "Cor": "Graphite Black",
       "Garantia": "12 meses"
     },
-    image: "/placeholder.svg"
+    image: "/images/products/notebook/notebook-4.png"
   },
   {
     id: "notebook-macbook-air-m2-13-512gb",
@@ -357,7 +357,7 @@ export const products: Product[] = [
       "Cor": "Cinza Espacial",
       "Garantia": "12 meses"
     },
-    image: "/placeholder.svg"
+    image: "/images/products/notebook/notebook-5.png"
   },
 
   // ==================== MONITORES ====================
