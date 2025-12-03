@@ -1,6 +1,6 @@
 import { useParams, Link, useNavigate } from "react-router-dom";
 import { useEffect } from "react";
-import { getProductById, getRelatedProducts, products } from "@/data/products";
+import { getProductById, products } from "@/data/products";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { ArrowLeft, ArrowRight, ChevronRight, MessageCircle } from "lucide-react";
@@ -34,7 +34,8 @@ const ProductDetail = () => {
     );
   }
 
-  const relatedProducts = getRelatedProducts(product);
+  // Produtos relacionados da mesma categoria
+  const relatedProducts = products.filter(p => p.category === product.category && p.id !== product.id).slice(0, 4);
   const currentIndex = products.findIndex(p => p.id === product.id);
   const previousProduct = currentIndex > 0 ? products[currentIndex - 1] : null;
   const nextProduct = currentIndex < products.length - 1 ? products[currentIndex + 1] : null;
@@ -101,13 +102,6 @@ const ProductDetail = () => {
                 alt={product.name}
                 className="w-full h-96 object-contain"
               />
-            </div>
-            <div className="grid grid-cols-3 gap-4">
-              {product.gallery.map((img, index) => (
-                <div key={index} className="bg-card rounded-lg p-4 border border-gold/10 hover:border-gold/30 transition-smooth cursor-pointer">
-                  <img src={img} alt={`${product.name} ${index + 1}`} className="w-full h-24 object-contain" />
-                </div>
-              ))}
             </div>
           </div>
 
