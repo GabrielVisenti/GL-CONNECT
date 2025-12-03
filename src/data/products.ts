@@ -70,7 +70,7 @@ export const products: Product[] = [
       "Áudio": "20W (2.0 canais)",
       "Garantia": "12 meses"
     },
-    image: "/placeholder.svg"
+    image: "/images/products/tv/tv-1.png"
   },
   {
     id: "tv-lg-55-uhd-55ua85-2025",
@@ -101,7 +101,7 @@ export const products: Product[] = [
       "Controle": "Smart Magic",
       "Garantia": "12 meses"
     },
-    image: "/placeholder.svg"
+    image: "/images/products/tv/tv-2.png"
   },
   {
     id: "tv-lg-60-uhd-60ua8550psa-2025",
@@ -132,7 +132,7 @@ export const products: Product[] = [
       "Controle por Voz": "Alexa + Google Assistant",
       "Garantia": "12 meses"
     },
-    image: "/placeholder.svg"
+    image: "/images/products/tv/tv-3.png"
   },
   {
     id: "tv-samsung-65-crystal-u8100f-2025",
@@ -163,7 +163,7 @@ export const products: Product[] = [
       "Áudio": "20W (2.0 canais)",
       "Garantia": "12 meses"
     },
-    image: "/placeholder.svg"
+    image: "/images/products/tv/tv-4.png"
   },
   {
     id: "tv-hisense-70-70a6n-4k",
@@ -194,7 +194,7 @@ export const products: Product[] = [
       "Controle por Voz": "Alexa Built-In",
       "Garantia": "12 meses"
     },
-    image: "/placeholder.svg"
+    image: "/images/products/tv/tv-5.png"
   },
 
   // ==================== NOTEBOOKS ====================
