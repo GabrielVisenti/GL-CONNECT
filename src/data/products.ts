@@ -389,7 +389,7 @@ export const products: Product[] = [
       "Consumo": "19W típico",
       "Garantia": "12 meses"
     },
-    image: "/placeholder.svg"
+    image: "/images/products/monitor/monitor-1.png"
   },
   {
     id: "monitor-dell-22-se2225hm",
@@ -420,7 +420,7 @@ export const products: Product[] = [
       "ComfortView Plus": "Sem cintilação",
       "Garantia": "12 meses"
     },
-    image: "/placeholder.svg"
+    image: "/images/products/monitor/monitor-2.png"
   },
   {
     id: "monitor-samsung-24-s3-100hz",
@@ -451,7 +451,7 @@ export const products: Product[] = [
       "Ajuste": "Inclinação",
       "Garantia": "12 meses"
     },
-    image: "/placeholder.svg"
+    image: "/images/products/monitor/monitor-3.png"
   },
   {
     id: "monitor-samsung-27-curvo-lc27f390",
@@ -482,7 +482,7 @@ export const products: Product[] = [
       "Eye Saver Mode": "Sim",
       "Garantia": "12 meses"
     },
-    image: "/placeholder.svg"
+    image: "/images/products/monitor/monitor-4.png"
   },
   {
     id: "monitor-samsung-32-uhd-uj59-4k",
@@ -513,7 +513,7 @@ export const products: Product[] = [
       "Suporte VESA": "100x100mm",
       "Garantia": "12 meses"
     },
-    image: "/placeholder.svg"
+    image: "/images/products/monitor/monitor-5.png"
   },
 
   // ==================== TECLADOS ====================
