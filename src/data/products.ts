@@ -706,7 +706,7 @@ export const products: Product[] = [
       "Compatibilidade": "Windows, macOS, Linux, Chrome OS, Android",
       "Garantia": "12 meses"
     },
-    image: "/placeholder.svg"
+    image: "/images/products/mouse/mouse-1.png"
   },
   {
     id: "mouse-dell-wm126-wireless",
@@ -739,7 +739,7 @@ export const products: Product[] = [
       "Compatibilidade": "Windows, macOS, Linux",
       "Garantia": "12 meses"
     },
-    image: "/placeholder.svg"
+    image: "/images/products/mouse/mouse-2.png"
   },
   {
     id: "mouse-hp-100-wired-6vy96aa",
@@ -771,7 +771,7 @@ export const products: Product[] = [
       "Compatibilidade": "Windows 7/8/10/11, macOS",
       "Garantia": "12 meses"
     },
-    image: "/placeholder.svg"
+    image: "/images/products/mouse/mouse-3.png"
   },
   {
     id: "mouse-hp-150-wired-240j6aa",
@@ -803,7 +803,7 @@ export const products: Product[] = [
       "Compatibilidade": "Windows 7/8/10",
       "Garantia": "12 meses"
     },
-    image: "/placeholder.svg"
+    image: "/images/products/mouse/mouse-4.png"
   },
   {
     id: "mouse-redragon-ranger-m910-k",
@@ -836,7 +836,7 @@ export const products: Product[] = [
       "Compatibilidade": "Windows, macOS, Linux",
       "Garantia": "12 meses"
     },
-    image: "/placeholder.svg"
+    image: "/images/products/mouse/mouse-5.png"
   },
 
   // ==================== HEADSETS/FONES ====================
