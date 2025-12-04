@@ -546,7 +546,7 @@ export const products: Product[] = [
       "Compatibilidade": "Windows, Linux, Chrome OS",
       "Garantia": "12 meses"
     },
-    image: "/placeholder.svg"
+    image: "/images/products/keyboard/keyboard-1.png"
   },
   {
     id: "teclado-intelbras-tsi50-wireless",
@@ -577,7 +577,7 @@ export const products: Product[] = [
       "Compatibilidade": "Windows, macOS, Linux",
       "Garantia": "12 meses"
     },
-    image: "/placeholder.svg"
+    image: "/images/products/keyboard/keyboard-2.png"
   },
   {
     id: "teclado-hp-230-wireless",
@@ -609,7 +609,7 @@ export const products: Product[] = [
       "Compatibilidade": "Windows 7/8/10/11",
       "Garantia": "12 meses"
     },
-    image: "/placeholder.svg"
+    image: "/images/products/keyboard/keyboard-3.png"
   },
   {
     id: "teclado-redragon-netherbane-k521-rgb",
@@ -641,7 +641,7 @@ export const products: Product[] = [
       "Compatibilidade": "Windows, macOS, Linux",
       "Garantia": "12 meses"
     },
-    image: "/placeholder.svg"
+    image: "/images/products/keyboard/keyboard-4.png"
   },
   {
     id: "teclado-mecanico-gamer-blue-rgb",
@@ -672,7 +672,7 @@ export const products: Product[] = [
       "Compatibilidade": "Windows, macOS, Linux",
       "Garantia": "12 meses"
     },
-    image: "/placeholder.svg"
+    image: "/images/products/keyboard/keyboard-5.png"
   },
 
   // ==================== MOUSE ====================
