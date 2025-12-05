@@ -1530,7 +1530,7 @@ export const products: Product[] = [
       "Dimensões": "Rack 19\" 1U",
       "Garantia": "Vitalícia limitada"
     },
-    image: "/placeholder.svg"
+    image: "/images/products/switch/switch-1.png"
   },
   {
     id: "switch-tplink-tl-sg108-8portas",
@@ -1563,7 +1563,7 @@ export const products: Product[] = [
       "Dimensões": "158 x 101 x 25 mm",
       "Garantia": "Vitalícia limitada"
     },
-    image: "/placeholder.svg"
+    image: "/images/products/switch/switch-2.png"
   },
   {
     id: "switch-tplink-tl-sg116e-16portas",
@@ -1596,7 +1596,7 @@ export const products: Product[] = [
       "Montagem": "Desktop/Rack 19\"",
       "Garantia": "Vitalícia limitada"
     },
-    image: "/placeholder.svg"
+    image: "/images/products/switch/switch-3.png"
   },
   {
     id: "switch-tplink-tl-sg1024d-24portas",
@@ -1629,7 +1629,7 @@ export const products: Product[] = [
       "Dimensões": "440 x 180 x 44 mm",
       "Garantia": "Vitalícia limitada"
     },
-    image: "/placeholder.svg"
+    image: "/images/products/switch/switch-4.png"
   },
   {
     id: "switch-intelbras-sg5204mr-l2-48portas",
@@ -1663,7 +1663,7 @@ export const products: Product[] = [
       "Montagem": "Rack 19\" 1U",
       "Garantia": "12 meses"
     },
-    image: "/placeholder.svg"
+    image: "/images/products/switch/switch-5.png"
   },
 
   // ==================== IMPRESSORAS ====================
