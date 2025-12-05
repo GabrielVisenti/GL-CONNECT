@@ -1366,7 +1366,7 @@ export const products: Product[] = [
       "Dimensões": "260.2 x 135 x 38.6 mm",
       "Garantia": "24 meses"
     },
-    image: "/placeholder.svg"
+    image: "/images/products/router/router-1.png"
   },
   {
     id: "roteador-tplink-archer-ax72-ax5400",
@@ -1398,7 +1398,7 @@ export const products: Product[] = [
       "App": "TP-Link Tether",
       "Garantia": "24 meses"
     },
-    image: "/placeholder.svg"
+    image: "/images/products/router/router-2.png"
   },
   {
     id: "roteador-tplink-archer-ax53-ax3000",
@@ -1431,7 +1431,7 @@ export const products: Product[] = [
       "App": "TP-Link Tether",
       "Garantia": "24 meses"
     },
-    image: "/placeholder.svg"
+    image: "/images/products/router/router-3.png"
   },
   {
     id: "roteador-wireless-n-300mbps-4portas",
@@ -1462,7 +1462,7 @@ export const products: Product[] = [
       "Dimensões": "Compacto",
       "Garantia": "12 meses"
     },
-    image: "/placeholder.svg"
+    image: "/images/products/router/router-4.png"
   },
   {
     id: "roteador-intelbras-ap1250-acmax",
@@ -1495,7 +1495,7 @@ export const products: Product[] = [
       "Montagem": "Teto ou parede",
       "Garantia": "12 meses"
     },
-    image: "/placeholder.svg"
+    image: "/images/products/router/router-5.png"
   },
 
   // ==================== SWITCHES ====================
