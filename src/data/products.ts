@@ -1201,7 +1201,7 @@ export const products: Product[] = [
       "Alto-falantes": "2x 5W",
       "Garantia": "12 meses"
     },
-    image: "/placeholder.svg"
+    image: "/images/products/projector/projector-1.png"
   },
   {
     id: "projetor-bettdow-4k-24000-lumens",
@@ -1233,7 +1233,7 @@ export const products: Product[] = [
       "Alto-falantes": "2x 5W estéreo",
       "Garantia": "12 meses"
     },
-    image: "/placeholder.svg"
+    image: "/images/products/projector/projector-2.png"
   },
   {
     id: "projetor-mini-5g-wifi6-android11",
@@ -1266,7 +1266,7 @@ export const products: Product[] = [
       "Portátil": "Compacto",
       "Garantia": "12 meses"
     },
-    image: "/placeholder.svg"
+    image: "/images/products/projector/projector-3.png"
   },
   {
     id: "projetor-epson-powerlite-e20",
@@ -1299,7 +1299,7 @@ export const products: Product[] = [
       "Cor": "Branco",
       "Garantia": "12 meses"
     },
-    image: "/placeholder.svg"
+    image: "/images/products/projector/projector-4.png"
   },
   {
     id: "projetor-intelbras-pfl6410-fullhd",
@@ -1332,7 +1332,7 @@ export const products: Product[] = [
       "Cor": "Branco",
       "Garantia": "12 meses"
     },
-    image: "/placeholder.svg"
+    image: "/images/products/projector/projector-5.png"
   },
 
   // ==================== ROTEADORES ====================
