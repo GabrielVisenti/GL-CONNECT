@@ -1037,7 +1037,7 @@ export const products: Product[] = [
       "Material": "Plástico reciclado + tecido",
       "Garantia": "12 meses"
     },
-    image: "/placeholder.svg"
+    image: "/images/products/speaker/speaker-1.png"
   },
   {
     id: "caixa-som-jbl-partybox-encore-essential",
@@ -1069,7 +1069,7 @@ export const products: Product[] = [
       "App": "JBL PartyBox",
       "Garantia": "12 meses"
     },
-    image: "/placeholder.svg"
+    image: "/images/products/speaker/speaker-2.png"
   },
   {
     id: "caixa-som-jbl-partybox-stage-320",
@@ -1101,7 +1101,7 @@ export const products: Product[] = [
       "App": "JBL PartyBox",
       "Garantia": "12 meses"
     },
-    image: "/placeholder.svg"
+    image: "/images/products/speaker/speaker-3.png"
   },
   {
     id: "caixa-som-c3tech-sp-301bk",
@@ -1134,7 +1134,7 @@ export const products: Product[] = [
       "Compatibilidade": "PC, notebook, smartphone",
       "Garantia": "12 meses"
     },
-    image: "/placeholder.svg"
+    image: "/images/products/speaker/speaker-4.png"
   },
   {
     id: "caixa-som-jbl-boombox-3",
@@ -1167,7 +1167,7 @@ export const products: Product[] = [
       "App": "JBL Portable",
       "Garantia": "12 meses"
     },
-    image: "/placeholder.svg"
+    image: "/images/products/speaker/speaker-5.png"
   },
 
   // ==================== PROJETORES ====================
