@@ -871,7 +871,7 @@ export const products: Product[] = [
       "Compatibilidade": "PC, consoles, mobile",
       "Garantia": "12 meses"
     },
-    image: "/placeholder.svg"
+    image: "/images/products/headset/headset-1.png"
   },
   {
     id: "headset-dell-wh125-wired",
@@ -904,7 +904,7 @@ export const products: Product[] = [
       "Certificações": "Teams, Zoom, Google Meet, WebEx",
       "Garantia": "12 meses"
     },
-    image: "/placeholder.svg"
+    image: "/images/products/headset/headset-2.png"
   },
   {
     id: "headset-logitech-h390-usb",
@@ -937,7 +937,7 @@ export const products: Product[] = [
       "Compatibilidade": "Windows, macOS, Chrome OS",
       "Garantia": "24 meses"
     },
-    image: "/placeholder.svg"
+    image: "/images/products/headset/headset-3.png"
   },
   {
     id: "headset-redragon-zeus-lite-h510",
@@ -971,7 +971,7 @@ export const products: Product[] = [
       "Compatibilidade": "PC, notebook, mobile",
       "Garantia": "12 meses"
     },
-    image: "/placeholder.svg"
+    image: "/images/products/headset/headset-4.png"
   },
   {
     id: "headset-plantronics-blackwire-3220-usbc",
@@ -1003,7 +1003,7 @@ export const products: Product[] = [
       "Certificações": "Microsoft Teams, Zoom, Skype",
       "Garantia": "24 meses"
     },
-    image: "/placeholder.svg"
+    image: "/images/products/headset/headset-5.png"
   },
 
   // ==================== CAIXAS DE SOM ====================
