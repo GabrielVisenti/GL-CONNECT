@@ -1697,7 +1697,7 @@ export const products: Product[] = [
       "Bandeja": "100 folhas",
       "Garantia": "12 meses"
     },
-    image: "/placeholder.svg"
+    image: "/images/products/printer/printer-1.png"
   },
   {
     id: "impressora-epson-ecotank-l5590",
@@ -1730,7 +1730,7 @@ export const products: Product[] = [
       "Bandeja": "250 folhas",
       "Garantia": "12 meses"
     },
-    image: "/placeholder.svg"
+    image: "/images/products/printer/printer-2.png"
   },
   {
     id: "impressora-brother-dcpl1632w-laser",
@@ -1764,7 +1764,7 @@ export const products: Product[] = [
       "Ciclo Mensal": "10.000 páginas",
       "Garantia": "12 meses"
     },
-    image: "/placeholder.svg"
+    image: "/images/products/printer/printer-3.png"
   },
   {
     id: "impressora-hp-laser-107w",
@@ -1798,7 +1798,7 @@ export const products: Product[] = [
       "Dimensões": "346 x 198 x 159 mm",
       "Garantia": "12 meses"
     },
-    image: "/placeholder.svg"
+    image: "/images/products/printer/printer-4.png"
   },
   {
     id: "impressora-brother-dcpl5662dn-laser",
@@ -1832,7 +1832,7 @@ export const products: Product[] = [
       "Ciclo Mensal": "100.000 páginas",
       "Garantia": "12 meses"
     },
-    image: "/placeholder.svg"
+    image: "/images/products/printer/printer-5.png"
   },
 ];
 
