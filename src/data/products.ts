@@ -4,7 +4,6 @@ import {
   Keyboard, 
   Mouse, 
   Headphones, 
-  Tv, 
   Speaker,
   Projector,
   Network,
@@ -26,7 +25,6 @@ export interface Product {
 }
 
 export const productCategories = [
-  { id: "tv", name: "TVs", icon: Tv },
   { id: "notebook", name: "Notebooks", icon: Laptop },
   { id: "monitor", name: "Monitores", icon: Monitor },
   { id: "teclado", name: "Teclados", icon: Keyboard },
@@ -40,163 +38,6 @@ export const productCategories = [
 ];
 
 export const products: Product[] = [
-  // ==================== TVs ====================
-  {
-    id: "tv-samsung-50-crystal-u8100f-2025",
-    name: "Samsung Smart TV 50\" Crystal UHD 4K U8100F 2025",
-    shortName: "Samsung 50\" Crystal UHD",
-    category: "tv",
-    categoryIcon: Tv,
-    description: "A Samsung Smart TV 50\" Crystal UHD oferece imagens nítidas e vibrantes com resolução 4K, processador Crystal 4K e tecnologia HDR10+. Ideal para ambientes corporativos, salas de reunião e apresentações profissionais. Sistema Tizen integrado com acesso a diversos aplicativos e streaming.",
-    features: [
-      "Resolução 4K UHD (3840x2160) para imagens ultra nítidas",
-      "Processador Crystal 4K com upscaling inteligente",
-      "HDR10+ para cores realistas e contraste aprimorado",
-      "Smart TV com Tizen OS e múltiplos apps",
-      "Design fino com bordas reduzidas",
-      "Conectividade completa HDMI, USB e Wi-Fi"
-    ],
-    specifications: {
-      "Marca": "Samsung",
-      "Modelo": "UN50U8100FGXZD",
-      "Tamanho": "50 polegadas",
-      "Resolução": "4K UHD (3840x2160)",
-      "Tecnologia": "Crystal UHD",
-      "Processador": "Crystal Processor 4K",
-      "HDR": "HDR10+",
-      "Sistema Operacional": "Tizen",
-      "Taxa de Atualização": "60Hz",
-      "Conectividade": "3x HDMI, 2x USB, Wi-Fi, Bluetooth",
-      "Áudio": "20W (2.0 canais)",
-      "Garantia": "12 meses"
-    },
-    image: "/images/products/tv/tv-1.png"
-  },
-  {
-    id: "tv-lg-55-uhd-55ua85-2025",
-    name: "Smart TV 4K 55\" LG UHD 55UA85 Processador α7 AI Ger8 4K Super Upscaling Google Cast Alexa Integrado Controle AI Smart Magic WebOS 25",
-    shortName: "LG 55\" UHD α7 AI",
-    category: "tv",
-    categoryIcon: Tv,
-    description: "Smart TV LG de 55 polegadas com processador α7 AI de 8ª geração, oferecendo upscaling 4K inteligente e otimização de imagem automática. Integração completa com Alexa e Google Assistant para controle por voz. WebOS 25 para navegação intuitiva e acesso rápido a conteúdos.",
-    features: [
-      "Processador α7 AI Gen8 para upscaling 4K superior",
-      "Inteligência Artificial para otimização automática",
-      "Google Cast e Alexa integrados",
-      "Controle Smart Magic incluído",
-      "WebOS 25 intuitivo e rápido",
-      "AI Sound Pro para áudio imersivo"
-    ],
-    specifications: {
-      "Marca": "LG",
-      "Modelo": "55UA8550PSA",
-      "Tamanho": "55 polegadas",
-      "Resolução": "4K UHD (3840x2160)",
-      "Processador": "α7 AI Processor 4K Gen8",
-      "HDR": "HDR10 Pro",
-      "Sistema Operacional": "webOS 25",
-      "Taxa de Atualização": "60Hz",
-      "Conectividade": "4x HDMI, 3x USB, Wi-Fi 5, Bluetooth 5.0",
-      "Áudio": "AI Sound Pro 20W",
-      "Controle": "Smart Magic",
-      "Garantia": "12 meses"
-    },
-    image: "/images/products/tv/tv-2.png"
-  },
-  {
-    id: "tv-lg-60-uhd-60ua8550psa-2025",
-    name: "Smart TV LG 60\" UHD AI 4K 2025 60UA8550PSA",
-    shortName: "LG 60\" UHD AI 4K",
-    category: "tv",
-    categoryIcon: Tv,
-    description: "Smart TV LG de 60 polegadas com tecnologia AI 4K, processador α7 AI Gen8 e super upscaling. Perfeita para salas de conferência e auditórios. Conectividade completa com Google Cast, Alexa integrado e controle AI Smart Magic para facilitar apresentações.",
-    features: [
-      "Tela grande de 60 polegadas",
-      "Processador α7 AI 4K Gen8",
-      "4K Super Upscaling inteligente",
-      "Alexa e Google Assistant integrados",
-      "Controle AI Smart Magic incluído",
-      "WebOS 25 para máxima produtividade"
-    ],
-    specifications: {
-      "Marca": "LG",
-      "Modelo": "60UA8550PSA",
-      "Tamanho": "60 polegadas",
-      "Resolução": "4K UHD (3840x2160)",
-      "Processador": "α7 AI 4K Gen8",
-      "HDR": "HDR10",
-      "Sistema Operacional": "webOS 25",
-      "Taxa de Atualização": "60Hz",
-      "Conectividade": "4x HDMI 2.0, 2x USB, Wi-Fi 5, Bluetooth",
-      "Áudio": "AI Sound 20W Dolby Audio",
-      "Controle por Voz": "Alexa + Google Assistant",
-      "Garantia": "12 meses"
-    },
-    image: "/images/products/tv/tv-3.png"
-  },
-  {
-    id: "tv-samsung-65-crystal-u8100f-2025",
-    name: "Samsung Smart TV 65\" Crystal UHD 4K U8100F 2025",
-    shortName: "Samsung 65\" Crystal UHD",
-    category: "tv",
-    categoryIcon: Tv,
-    description: "Samsung Crystal UHD de 65 polegadas, ideal para grandes ambientes corporativos. Com Crystal Processor 4K e HDR10+, oferece imagens vibrantes e realistas. Design elegante com bordas finas e sistema Tizen para acesso a apps de produtividade e streaming.",
-    features: [
-      "Tela de 65 polegadas para grandes espaços",
-      "Crystal Processor 4K com upscaling",
-      "HDR10+ para imagens realistas",
-      "Design premium com bordas finas",
-      "Smart Hub com interface intuitiva",
-      "Controle remoto único universal"
-    ],
-    specifications: {
-      "Marca": "Samsung",
-      "Modelo": "UN65U8100FGXZD",
-      "Tamanho": "65 polegadas",
-      "Resolução": "4K UHD (3840x2160)",
-      "Tecnologia": "Crystal UHD",
-      "Processador": "Crystal Processor 4K",
-      "HDR": "HDR10+",
-      "Sistema Operacional": "Tizen 2025",
-      "Taxa de Atualização": "60Hz",
-      "Conectividade": "3x HDMI 2.0, 2x USB, Wi-Fi 5, Bluetooth 5.2",
-      "Áudio": "20W (2.0 canais)",
-      "Garantia": "12 meses"
-    },
-    image: "/images/products/tv/tv-4.png"
-  },
-  {
-    id: "tv-hisense-70-70a6n-4k",
-    name: "Hisense Smart TV UHD 4K DLED 70\" Polegadas 70A6N com HDR10+ Dolby Vision Game Mode Controle por Voz Alexa Built-In AirPlay",
-    shortName: "Hisense 70\" 4K",
-    category: "tv",
-    categoryIcon: Tv,
-    description: "Smart TV Hisense de 70 polegadas com tecnologia DLED e suporte a HDR10+ e Dolby Vision. Ideal para auditórios e grandes salas. Alexa integrada, AirPlay e Game Mode para versatilidade total. Qualidade de imagem premium em tela grande.",
-    features: [
-      "70 polegadas de tela imersiva",
-      "HDR10+ e Dolby Vision para cores vibrantes",
-      "Alexa Built-In para controle por voz",
-      "AirPlay para espelhamento Apple",
-      "Game Mode PLUS otimizado",
-      "AI Upscaler para melhor qualidade"
-    ],
-    specifications: {
-      "Marca": "Hisense",
-      "Modelo": "70A6N",
-      "Tamanho": "70 polegadas",
-      "Resolução": "4K UHD (3840x2160)",
-      "Tecnologia": "DLED",
-      "HDR": "HDR10+, Dolby Vision",
-      "Sistema Operacional": "VIDAA Smart TV",
-      "Taxa de Atualização": "60Hz",
-      "Conectividade": "4x HDMI 2.0, 2x USB, Wi-Fi, Bluetooth, AirPlay",
-      "Áudio": "Dolby Atmos 20W",
-      "Controle por Voz": "Alexa Built-In",
-      "Garantia": "12 meses"
-    },
-    image: "/images/products/tv/tv-5.png"
-  },
-
   // ==================== NOTEBOOKS ====================
   {
     id: "notebook-dell-inspiron-15-3530-corei3",
