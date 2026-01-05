@@ -69,7 +69,7 @@ export const products: Product[] = [
       "Peso": "Aprox. 1.65kg",
       "Garantia": "12 meses"
     },
-    image: "/images/products/notebook/notebook-1.png"
+    image: img("/images/products/notebook/notebook-1.png")
   },
   {
     id: "notebook-asus-vivobook-15-x1504va-i5",
@@ -101,7 +101,7 @@ export const products: Product[] = [
       "Cor": "Cool Silver",
       "Garantia": "12 meses"
     },
-    image: "/images/products/notebook/notebook-2.png"
+    image: img("/images/products/notebook/notebook-2.png")
   },
   {
     id: "notebook-asus-vivobook-16-x1605va-i7",
@@ -133,7 +133,7 @@ export const products: Product[] = [
       "Cor": "Cool Silver",
       "Garantia": "12 meses"
     },
-    image: "/images/products/notebook/notebook-3.png"
+    image: img("/images/products/notebook/notebook-3.png")
   },
   {
     id: "notebook-asus-tuf-gaming-a15-rtx3050",
@@ -165,7 +165,7 @@ export const products: Product[] = [
       "Cor": "Graphite Black",
       "Garantia": "12 meses"
     },
-    image: "/images/products/notebook/notebook-4.png"
+    image: img("/images/products/notebook/notebook-4.png")
   },
   {
     id: "notebook-macbook-air-m2-13-512gb",
@@ -198,7 +198,7 @@ export const products: Product[] = [
       "Cor": "Cinza Espacial",
       "Garantia": "12 meses"
     },
-    image: "/images/products/notebook/notebook-5.png"
+    image: img("/images/products/notebook/notebook-5.png")
   },
 
   // ==================== MONITORES ====================
@@ -230,7 +230,7 @@ export const products: Product[] = [
       "Consumo": "19W típico",
       "Garantia": "12 meses"
     },
-    image: "/images/products/monitor/monitor-1.png"
+    image: img("/images/products/monitor/monitor-1.png")
   },
   {
     id: "monitor-dell-22-se2225hm",
@@ -261,7 +261,7 @@ export const products: Product[] = [
       "ComfortView Plus": "Sem cintilação",
       "Garantia": "12 meses"
     },
-    image: "/images/products/monitor/monitor-2.png"
+    image: img("/images/products/monitor/monitor-2.png")
   },
   {
     id: "monitor-samsung-24-s3-100hz",
@@ -292,7 +292,7 @@ export const products: Product[] = [
       "Ajuste": "Inclinação",
       "Garantia": "12 meses"
     },
-    image: "/images/products/monitor/monitor-3.png"
+    image: img("/images/products/monitor/monitor-3.png")
   },
   {
     id: "monitor-samsung-27-curvo-lc27f390",
@@ -323,7 +323,7 @@ export const products: Product[] = [
       "Eye Saver Mode": "Sim",
       "Garantia": "12 meses"
     },
-    image: "/images/products/monitor/monitor-4.png"
+    image: img("/images/products/monitor/monitor-4.png")
   },
   {
     id: "monitor-samsung-32-uhd-uj59-4k",
@@ -354,7 +354,7 @@ export const products: Product[] = [
       "Suporte VESA": "100x100mm",
       "Garantia": "12 meses"
     },
-    image: "/images/products/monitor/monitor-5.png"
+    image: img("/images/products/monitor/monitor-5.png")
   },
 
   // ==================== TECLADOS ====================
@@ -387,7 +387,7 @@ export const products: Product[] = [
       "Compatibilidade": "Windows, Linux, Chrome OS",
       "Garantia": "12 meses"
     },
-    image: "/images/products/keyboard/keyboard-1.png"
+    image: img("/images/products/keyboard/keyboard-1.png")
   },
   {
     id: "teclado-intelbras-tsi50-wireless",
@@ -418,7 +418,7 @@ export const products: Product[] = [
       "Compatibilidade": "Windows, macOS, Linux",
       "Garantia": "12 meses"
     },
-    image: "/images/products/keyboard/keyboard-2.png"
+    image: img("/images/products/keyboard/keyboard-2.png")
   },
   {
     id: "teclado-hp-230-wireless",
@@ -450,7 +450,7 @@ export const products: Product[] = [
       "Compatibilidade": "Windows 7/8/10/11",
       "Garantia": "12 meses"
     },
-    image: "/images/products/keyboard/keyboard-3.png"
+    image: img("/images/products/keyboard/keyboard-3.png")
   },
   {
     id: "teclado-redragon-netherbane-k521-rgb",
@@ -482,7 +482,7 @@ export const products: Product[] = [
       "Compatibilidade": "Windows, macOS, Linux",
       "Garantia": "12 meses"
     },
-    image: "/images/products/keyboard/keyboard-4.png"
+    image: img("/images/products/keyboard/keyboard-4.png")
   },
   {
     id: "teclado-mecanico-gamer-blue-rgb",
@@ -513,7 +513,7 @@ export const products: Product[] = [
       "Compatibilidade": "Windows, macOS, Linux",
       "Garantia": "12 meses"
     },
-    image: "/images/products/keyboard/keyboard-5.png"
+    image: img("/images/products/keyboard/keyboard-5.png")
   },
 
   // ==================== MOUSE ====================
@@ -547,7 +547,7 @@ export const products: Product[] = [
       "Compatibilidade": "Windows, macOS, Linux, Chrome OS, Android",
       "Garantia": "12 meses"
     },
-    image: "/images/products/mouse/mouse-1.png"
+    image: img("/images/products/mouse/mouse-1.png")
   },
   {
     id: "mouse-dell-wm126-wireless",
@@ -580,7 +580,7 @@ export const products: Product[] = [
       "Compatibilidade": "Windows, macOS, Linux",
       "Garantia": "12 meses"
     },
-    image: "/images/products/mouse/mouse-2.png"
+    image: img("/images/products/mouse/mouse-2.png")
   },
   {
     id: "mouse-hp-100-wired-6vy96aa",
@@ -612,7 +612,7 @@ export const products: Product[] = [
       "Compatibilidade": "Windows 7/8/10/11, macOS",
       "Garantia": "12 meses"
     },
-    image: "/images/products/mouse/mouse-3.png"
+    image: img("/images/products/mouse/mouse-3.png")
   },
   {
     id: "mouse-hp-150-wired-240j6aa",
@@ -644,7 +644,7 @@ export const products: Product[] = [
       "Compatibilidade": "Windows 7/8/10",
       "Garantia": "12 meses"
     },
-    image: "/images/products/mouse/mouse-4.png"
+    image: img("/images/products/mouse/mouse-4.png")
   },
   {
     id: "mouse-redragon-ranger-m910-k",
@@ -677,7 +677,7 @@ export const products: Product[] = [
       "Compatibilidade": "Windows, macOS, Linux",
       "Garantia": "12 meses"
     },
-    image: "/images/products/mouse/mouse-5.png"
+    image: img("/images/products/mouse/mouse-5.png")
   },
 
   // ==================== HEADSETS/FONES ====================
@@ -712,7 +712,7 @@ export const products: Product[] = [
       "Compatibilidade": "PC, consoles, mobile",
       "Garantia": "12 meses"
     },
-    image: "/images/products/headset/headset-1.png"
+    image: img("/images/products/headset/headset-1.png")
   },
   {
     id: "headset-dell-wh125-wired",
@@ -745,7 +745,7 @@ export const products: Product[] = [
       "Certificações": "Teams, Zoom, Google Meet, WebEx",
       "Garantia": "12 meses"
     },
-    image: "/images/products/headset/headset-2.png"
+    image: img("/images/products/headset/headset-2.png")
   },
   {
     id: "headset-logitech-h390-usb",
@@ -778,7 +778,7 @@ export const products: Product[] = [
       "Compatibilidade": "Windows, macOS, Chrome OS",
       "Garantia": "24 meses"
     },
-    image: "/images/products/headset/headset-3.png"
+    image: img("/images/products/headset/headset-3.png")
   },
   {
     id: "headset-redragon-zeus-lite-h510",
@@ -812,7 +812,7 @@ export const products: Product[] = [
       "Compatibilidade": "PC, notebook, mobile",
       "Garantia": "12 meses"
     },
-    image: "/images/products/headset/headset-4.png"
+    image: img("/images/products/headset/headset-4.png")
   },
   {
     id: "headset-plantronics-blackwire-3220-usbc",
@@ -844,7 +844,7 @@ export const products: Product[] = [
       "Certificações": "Microsoft Teams, Zoom, Skype",
       "Garantia": "24 meses"
     },
-    image: "/images/products/headset/headset-5.png"
+    image: img("/images/products/headset/headset-5.png")
   },
 
   // ==================== CAIXAS DE SOM ====================
@@ -878,7 +878,7 @@ export const products: Product[] = [
       "Material": "Plástico reciclado + tecido",
       "Garantia": "12 meses"
     },
-    image: "/images/products/speaker/speaker-1.png"
+    image: img("/images/products/speaker/speaker-1.png")
   },
   {
     id: "caixa-som-jbl-partybox-encore-essential",
@@ -910,7 +910,7 @@ export const products: Product[] = [
       "App": "JBL PartyBox",
       "Garantia": "12 meses"
     },
-    image: "/images/products/speaker/speaker-2.png"
+    image: img("/images/products/speaker/speaker-2.png")
   },
   {
     id: "caixa-som-jbl-partybox-stage-320",
@@ -942,7 +942,7 @@ export const products: Product[] = [
       "App": "JBL PartyBox",
       "Garantia": "12 meses"
     },
-    image: "/images/products/speaker/speaker-3.png"
+    image: img("/images/products/speaker/speaker-3.png")
   },
   {
     id: "caixa-som-c3tech-sp-301bk",
@@ -975,7 +975,7 @@ export const products: Product[] = [
       "Compatibilidade": "PC, notebook, smartphone",
       "Garantia": "12 meses"
     },
-    image: "/images/products/speaker/speaker-4.png"
+    image: img("/images/products/speaker/speaker-4.png")
   },
   {
     id: "caixa-som-jbl-boombox-4",
@@ -1007,7 +1007,7 @@ export const products: Product[] = [
       "App": "JBL Portable",
       "Garantia": "12 meses"
     },
-    image: "/images/products/speaker/speaker-5.png"
+    image: img("/images/products/speaker/speaker-5.png")
   },
 
   // ==================== PROJETORES ====================
@@ -1041,7 +1041,7 @@ export const products: Product[] = [
       "Alto-falantes": "2x 5W",
       "Garantia": "12 meses"
     },
-    image: "/images/products/projector/projector-1.png"
+    image: img("/images/products/projector/projector-1.png")
   },
   {
     id: "projetor-bettdow-4k-24000-lumens",
@@ -1073,7 +1073,7 @@ export const products: Product[] = [
       "Alto-falantes": "2x 5W estéreo",
       "Garantia": "12 meses"
     },
-    image: "/images/products/projector/projector-2.png"
+    image: img("/images/products/projector/projector-2.png")
   },
   {
     id: "projetor-mini-5g-wifi6-android11",
@@ -1106,7 +1106,7 @@ export const products: Product[] = [
       "Portátil": "Compacto",
       "Garantia": "12 meses"
     },
-    image: "/images/products/projector/projector-3.png"
+    image: img("/images/products/projector/projector-3.png")
   },
   {
     id: "projetor-epson-powerlite-e20",
@@ -1139,7 +1139,7 @@ export const products: Product[] = [
       "Cor": "Branco",
       "Garantia": "12 meses"
     },
-    image: "/images/products/projector/projector-4.png"
+    image: img("/images/products/projector/projector-4.png")
   },
   {
     id: "projetor-intelbras-pfl6410-fullhd",
@@ -1172,7 +1172,7 @@ export const products: Product[] = [
       "Cor": "Branco",
       "Garantia": "12 meses"
     },
-    image: "/images/products/projector/projector-5.png"
+    image: img("/images/products/projector/projector-5.png")
   },
 
   // ==================== ROTEADORES ====================
@@ -1206,7 +1206,7 @@ export const products: Product[] = [
       "Dimensões": "260.2 x 135 x 38.6 mm",
       "Garantia": "24 meses"
     },
-    image: "/images/products/router/router-1.png"
+    image: img("/images/products/router/router-1.png")
   },
   {
     id: "roteador-tplink-archer-ax72-ax5400",
@@ -1238,7 +1238,7 @@ export const products: Product[] = [
       "App": "TP-Link Tether",
       "Garantia": "24 meses"
     },
-    image: "/images/products/router/router-2.png"
+    image: img("/images/products/router/router-2.png")
   },
   {
     id: "roteador-tplink-archer-ax53-ax3000",
@@ -1271,7 +1271,7 @@ export const products: Product[] = [
       "App": "TP-Link Tether",
       "Garantia": "24 meses"
     },
-    image: "/images/products/router/router-3.png"
+    image: img("/images/products/router/router-3.png")
   },
   {
     id: "roteador-wireless-n-300mbps-4portas",
@@ -1302,7 +1302,7 @@ export const products: Product[] = [
       "Dimensões": "Compacto",
       "Garantia": "12 meses"
     },
-    image: "/images/products/router/router-4.png"
+    image: img("/images/products/router/router-4.png")
   },
   {
     id: "roteador-intelbras-ap1250-acmax",
@@ -1335,7 +1335,7 @@ export const products: Product[] = [
       "Montagem": "Teto ou parede",
       "Garantia": "12 meses"
     },
-    image: "/images/products/router/router-5.png"
+    image: img("/images/products/router/router-5.png")
   },
 
   // ==================== SWITCHES ====================
@@ -1370,7 +1370,7 @@ export const products: Product[] = [
       "Dimensões": "Rack 19\" 1U",
       "Garantia": "Vitalícia limitada"
     },
-    image: "/images/products/switch/switch-1.png"
+    image: img("/images/products/switch/switch-1.png")
   },
   {
     id: "switch-tplink-tl-sg108-8portas",
@@ -1403,7 +1403,7 @@ export const products: Product[] = [
       "Dimensões": "158 x 101 x 25 mm",
       "Garantia": "Vitalícia limitada"
     },
-    image: "/images/products/switch/switch-2.png"
+    image: img("/images/products/switch/switch-2.png")
   },
   {
     id: "switch-tplink-tl-sg116e-16portas",
@@ -1436,7 +1436,7 @@ export const products: Product[] = [
       "Montagem": "Desktop/Rack 19\"",
       "Garantia": "Vitalícia limitada"
     },
-    image: "/images/products/switch/switch-3.png"
+    image: img("/images/products/switch/switch-3.png")
   },
   {
     id: "switch-tplink-tl-sg1024d-24portas",
@@ -1469,7 +1469,7 @@ export const products: Product[] = [
       "Dimensões": "440 x 180 x 44 mm",
       "Garantia": "Vitalícia limitada"
     },
-    image: "/images/products/switch/switch-4.png"
+    image: img("/images/products/switch/switch-4.png")
   },
   {
     id: "switch-intelbras-sg5204mr-l2-48portas",
@@ -1503,7 +1503,7 @@ export const products: Product[] = [
       "Montagem": "Rack 19\" 1U",
       "Garantia": "12 meses"
     },
-    image: "/images/products/switch/switch-5.png"
+    image: img("/images/products/switch/switch-5.png")
   },
 
   // ==================== IMPRESSORAS ====================
@@ -1537,7 +1537,7 @@ export const products: Product[] = [
       "Bandeja": "100 folhas",
       "Garantia": "12 meses"
     },
-    image: "/images/products/printer/printer-1.png"
+    image: img("/images/products/printer/printer-1.png")
   },
   {
     id: "impressora-epson-ecotank-l5590",
@@ -1570,7 +1570,7 @@ export const products: Product[] = [
       "Bandeja": "250 folhas",
       "Garantia": "12 meses"
     },
-    image: "/images/products/printer/printer-2.png"
+    image: img("/images/products/printer/printer-2.png")
   },
   {
     id: "impressora-brother-dcpl1632w-laser",
@@ -1604,7 +1604,7 @@ export const products: Product[] = [
       "Ciclo Mensal": "10.000 páginas",
       "Garantia": "12 meses"
     },
-    image: "/images/products/printer/printer-3.png"
+    image: img("/images/products/printer/printer-3.png")
   },
   {
     id: "impressora-hp-laser-107w",
@@ -1638,7 +1638,7 @@ export const products: Product[] = [
       "Dimensões": "346 x 198 x 159 mm",
       "Garantia": "12 meses"
     },
-    image: "/images/products/printer/printer-4.png"
+    image: img("/images/products/printer/printer-4.png")
   },
   {
     id: "impressora-brother-dcpl5662dn-laser",
@@ -1672,7 +1672,7 @@ export const products: Product[] = [
       "Ciclo Mensal": "100.000 páginas",
       "Garantia": "12 meses"
     },
-    image: "/images/products/printer/printer-5.png"
+    image: img("/images/products/printer/printer-5.png")
   },
 ];
 
