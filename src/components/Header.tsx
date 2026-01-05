@@ -1,33 +1,15 @@
 import { Button } from "@/components/ui/button";
 import { Menu, X, MessageCircle } from "lucide-react";
 import { useState } from "react";
-import { useNavigate, useLocation } from "react-router-dom";
 import logo from "@/assets/logo.png";
+import { useScrollToSection } from "@/hooks/useScrollToSection";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const navigate = useNavigate();
-  const location = useLocation();
+  const scrollToSection = useScrollToSection();
 
-  const scrollToSection = (id: string) => {
-    // If we're not on the home page, navigate to home first
-    if (location.pathname !== "/") {
-      navigate("/");
-      // Wait for navigation to complete, then scroll
-      setTimeout(() => {
-        const element = document.getElementById(id);
-        if (element) {
-          element.scrollIntoView({ behavior: "smooth" });
-        }
-      }, 100);
-    } else {
-      // If we're already on the home page, just scroll
-      const element = document.getElementById(id);
-      if (element) {
-        element.scrollIntoView({ behavior: "smooth" });
-      }
-    }
-    setIsMenuOpen(false);
+  const handleNavClick = (id: string) => {
+    scrollToSection(id, () => setIsMenuOpen(false));
   };
 
   const handleWhatsAppClick = () => {
@@ -46,31 +28,31 @@ const Header = () => {
           {/* Desktop Menu */}
           <nav className="hidden md:flex items-center space-x-8">
             <button
-              onClick={() => scrollToSection("home")}
+              onClick={() => handleNavClick("home")}
               className="text-gold hover:text-gold-light transition-smooth font-medium"
             >
               Home
             </button>
             <button
-              onClick={() => scrollToSection("sobre")}
+              onClick={() => handleNavClick("sobre")}
               className="text-gold hover:text-gold-light transition-smooth font-medium"
             >
               Sobre
             </button>
             <button
-              onClick={() => scrollToSection("produtos")}
+              onClick={() => handleNavClick("produtos")}
               className="text-gold hover:text-gold-light transition-smooth font-medium"
             >
               Produtos
             </button>
             <button
-              onClick={() => scrollToSection("prefeituras")}
+              onClick={() => handleNavClick("prefeituras")}
               className="text-gold hover:text-gold-light transition-smooth font-medium"
             >
               Soluções para Prefeituras
             </button>
             <button
-              onClick={() => scrollToSection("contato")}
+              onClick={() => handleNavClick("contato")}
               className="text-gold hover:text-gold-light transition-smooth font-medium"
             >
               Contato
@@ -98,31 +80,31 @@ const Header = () => {
         {isMenuOpen && (
           <nav className="md:hidden py-6 space-y-4 border-t border-gold/20">
             <button
-              onClick={() => scrollToSection("home")}
+              onClick={() => handleNavClick("home")}
               className="block text-gold hover:text-gold-light transition-smooth font-medium w-full text-left py-2"
             >
               Home
             </button>
             <button
-              onClick={() => scrollToSection("sobre")}
+              onClick={() => handleNavClick("sobre")}
               className="block text-gold hover:text-gold-light transition-smooth font-medium w-full text-left py-2"
             >
               Sobre
             </button>
             <button
-              onClick={() => scrollToSection("produtos")}
+              onClick={() => handleNavClick("produtos")}
               className="block text-gold hover:text-gold-light transition-smooth font-medium w-full text-left py-2"
             >
               Produtos
             </button>
             <button
-              onClick={() => scrollToSection("prefeituras")}
+              onClick={() => handleNavClick("prefeituras")}
               className="block text-gold hover:text-gold-light transition-smooth font-medium w-full text-left py-2"
             >
               Soluções para Prefeituras
             </button>
             <button
-              onClick={() => scrollToSection("contato")}
+              onClick={() => handleNavClick("contato")}
               className="block text-gold hover:text-gold-light transition-smooth font-medium w-full text-left py-2"
             >
               Contato
