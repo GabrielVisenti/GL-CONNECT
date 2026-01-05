@@ -12,6 +12,10 @@ import {
   LucideIcon
 } from "lucide-react";
 
+// 🔑 Helper para imagens (compatível com GitHub Pages)
+const base = import.meta.env.BASE_URL;
+const img = (path: string) => `${base}${path.replace(/^\/+/, "")}`;
+
 export interface Product {
   id: string;
   name: string;
