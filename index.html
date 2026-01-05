@@ -23,4 +23,15 @@
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
+
+  <script>
+  // GitHub Pages + SPA: garante que a home abra com hash (#/)
+  (function () {
+    if (!window.location.hash) {
+      window.location.replace(window.location.href + "#/");
+    }
+  })();
+    
+</script>
+
 </html>
