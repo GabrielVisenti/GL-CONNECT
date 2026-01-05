@@ -1,12 +1,8 @@
 import logo from "@/assets/logo.png";
+import { useScrollToSection } from "@/hooks/useScrollToSection";
 
 const Footer = () => {
-  const scrollToSection = (id: string) => {
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  };
+  const scrollToSection = useScrollToSection();
 
   return (
     <footer className="bg-navy-lighter border-t border-gold/20 py-12">
